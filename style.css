@@ -9,9 +9,9 @@ body {
     font-variation-settings: "wdth" 100;
     margin: 40px;
     padding: 20px;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #222; /* Darker text for contrast */
-    text-align: justify; /* Aligns text properly */
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: justify;
 }
 
 h1, h3 {
@@ -28,10 +28,12 @@ li {
 }
 
 footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2b2b2b;
     color: white;
     border-radius: 5px;
+    font-size: 14px;
 }
