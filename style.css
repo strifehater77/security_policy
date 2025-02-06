@@ -29,11 +29,19 @@ li {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     padding: 10px 20px;
     background-color: #2b2b2b;
     color: white;
     border-radius: 5px;
     font-size: 14px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
 }
